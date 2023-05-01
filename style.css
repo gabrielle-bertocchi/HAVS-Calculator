@@ -1,4 +1,4 @@
-/
+
 body {
 	font-family: Arial, sans-serif;
 }
@@ -29,7 +29,7 @@ input[type="button"] {
 
 #result {
 	margin: 30px;
-	padding: 30px;
+	padding: 20px;
 	border: 1px solid black;
 }
 
