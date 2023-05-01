@@ -1,0 +1,33 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+label {
+	display: inline-block;
+	width: 300px;
+}
+
+input[type="number"] {
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+input[type="button"] {
+	margin-left: 300px;
+}
+
+#resultado {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid black;
+}
