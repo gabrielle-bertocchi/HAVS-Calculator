@@ -1,13 +1,13 @@
-function calcularHAVS() {
-	const tempo = parseFloat(document.getElementById("tempo").value);
-	const frequencia = parseFloat(document.getElementById("frequencia").value);
-	const aceleracao = parseFloat(document.getElementById("aceleracao").value);
+function calculateHAVS() {
+	const time = parseFloat(document.getElementById("time").value);
+	const frequency = parseFloat(document.getElementById("frequency").value);
+	const acceleration = parseFloat(document.getElementById("acceleration").value);
 
-	if (isNaN(tempo) || isNaN(frequencia) || isNaN(aceleracao)) {
-		document.getElementById("resultado").innerHTML = "Por favor, preencha todos os campos.";
+	if (isNaN(time) || isNaN(frequency) || isNaN(acceleration)) {
+		document.getElementById("result").innerHTML = "Please fill in all fields.";
 	} else {
-		const dose = tempo * Math.pow(frequencia, 2) * aceleracao;
-		const resultado = `A dose de vibração é de ${dose.toFixed(2)} m/s².h.`;
-		document.getElementById("resultado").innerHTML = resultado;
+		const dose = time * Math.pow(frequency, 2) * acceleration;
+		const result = `The vibration dose is ${dose.toFixed(2)} m/s².h.`;
+		document.getElementById("result").innerHTML = result;
 	}
 }
